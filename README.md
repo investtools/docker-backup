@@ -45,11 +45,11 @@ Model.new(:database, 'Database backup') do
 end
 ```
 
-For mor information, read the [Backup gem documentation](http://backup.github.io/backup/v4/).
+For more information, read the [Backup gem documentation](http://backup.github.io/backup/v4/).
 
 ### Running the container
 
-    $ docker run -d -v `pwd`/schedule.rb:/Backup/schedule.rb -v `pwd`/models:/Backup/models invettools/backup
+    $ docker run -d -v `pwd`/schedule.rb:/Backup/schedule.rb -v `pwd`/models:/Backup/models investtools/backup
 
 If you use [docker-compose](https://docs.docker.com/compose/), the docker-compose.yml file would look like this:
 
