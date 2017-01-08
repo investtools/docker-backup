@@ -31,7 +31,7 @@ For more information on syntax, read the [whenever documentation](https://github
 
 ### Backup model definition
 
-For each backup defined in schedule.rb you need do write a model file inside the models directory. For example:
+For each backup defined in schedule.rb you need to write a model file inside the models directory. For example:
 
 ```ruby
 # models/database.rb
