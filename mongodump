@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/bin/mongodump $* 2>&1

@@ -8,6 +8,7 @@ RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositor
 ADD run /
 ADD schedule.rb /config/schedule.rb
 ADD config.rb /root/Backup/config.rb
-RUN chmod u+x /run
+ADD mongodump /usr/local/bin
+RUN chmod u+x /run /usr/local/bin/mongodump
 
 CMD /run

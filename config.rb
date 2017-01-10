@@ -11,3 +11,8 @@ root_path '/Backup'
 Logger.configure do
   logfile.enabled = false
 end
+
+Utilities.configure do
+  mongodump '/usr/local/bin/mongodump'
+end
+
