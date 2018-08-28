@@ -3,6 +3,8 @@ docker-backup
 
 docker-backup is a Docker image that allows scheduled backups.
 
+Alteração para criar nova versão da imagem.
+
 Structure
 ---------
 
