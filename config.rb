@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 ##
-# Backup v4.x Configuration
+# Backup v5.x Configuration
 #
 # Documentation: http://backup.github.io/backup
 # Issue Tracker: https://github.com/backup/backup/issues
