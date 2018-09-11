@@ -6,10 +6,10 @@ RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositor
     gem install backup -v 5.0.0.beta.2 --no-document && \
     gem install whenever etc --no-document && \
     apk del build-base ruby-dev libxml2-dev
-ADD run /
+ADD start /
 ADD schedule.rb /config/schedule.rb
 ADD config.rb /root/Backup/config.rb
 ADD mongodump /usr/local/bin
-RUN chmod u+x /run /usr/local/bin/mongodump
+RUN chmod u+x /start /usr/local/bin/mongodump
 
-CMD /run
+CMD /start
